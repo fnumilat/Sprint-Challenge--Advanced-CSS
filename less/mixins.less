@@ -1,1 +1,20 @@
 // Mixins Here
+.custom-btn(@txt-align,) {
+    background-color: @btn-bg-color;
+    padding: 10px;
+    text-align: @txt-align;
+    color: @font-color;
+    font-size: 2rem;
+    width: 100px;
+    border-radius: 8px;
+}
+
+.custom-nav(@display, @j-content) {
+    display: @display;
+    justify-content: @j-content;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    background-color: @wild-sand;
+    margin-top: 1%;
+}

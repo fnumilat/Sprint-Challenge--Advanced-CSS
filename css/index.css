@@ -245,12 +245,17 @@ footer {
   font-size: 2rem;
   width: 100px;
   border-radius: 8px;
+  cursor: pointer;
 }
-.home .walk .walk-img {
+.home .walk .walk-text .btn:hover {
+  background-color: chartreuse;
+  color: black;
+}
+.home .walk .walk-text .walk-img {
   width: 46%;
   margin-left: 4%;
 }
-.home .walk .walk-img img {
+.home .walk .walk-text .walk-img img {
   width: 100%;
   height: auto;
   border-radius: 10px;

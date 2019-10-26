@@ -20,6 +20,9 @@
 
   .intro {
     img {
+      border-radius: 5px;
+      margin-top: 125px;
+      
       @media @mobile {
         width: 100%;
         border-radius: 10px;
@@ -111,6 +114,7 @@
 
       p {
         margin-bottom: 26px;
+        padding-right: 15px;
 
         @media @mobile {
           width: 120%;
@@ -138,24 +142,26 @@
         }
     }
 
-
-
     .walk-img {
       width: 46%;
       margin-left: 4%;
-
-      @media @mobile {
-        width: 100%;
-        margin-left: 6%;
-      }
 
       img {
         width: 100%;
         height: auto;
         border-radius: 10px;
-
       }
     }
   }
 }
 }//home
+
+
+.walk-img img {
+  border-radius: 10px;
+
+  @media @mobile {
+    width: 450px;
+    border-radius: 10px;
+  }
+}

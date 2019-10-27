@@ -1,1 +1,31 @@
 // Mixins Here
+.custom-btn(@txt-align, @font-color) {
+    background-color: @btn-bg-color;
+    padding: 10px;
+    text-align: @txt-align;
+    color: @font-color;
+    font-size: 2rem;
+    width: 100px;
+    border-radius: 8px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: chartreuse;
+        color: black;
+    }
+}
+
+.custom-nav(@display, @j-content) {
+    display: @display;
+    justify-content: @j-content;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    background-color: @wild-sand;
+    margin-top: .5%;
+    position: fixed;
+    overflow: hidden;
+    opacity: 0.80;
+}
+
+
